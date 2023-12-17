@@ -8,10 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let model = String()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
+    }
+     
+    func create() {
+        print("Thanks for the detailed story")
     }
 }
 
